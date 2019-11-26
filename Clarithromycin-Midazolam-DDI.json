@@ -1,0 +1,4068 @@
+{
+  "Version": 76,
+  "Individuals": [
+    {
+      "Name": "European (P-gp modified, CYP3A4 36 h)",
+      "Seed": 1745497687,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ]
+        },
+        {
+          "Name": "ABCB1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.41,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B3",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0326065214
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.026415244
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.041669701
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0574843621
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0249619939
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0227975502
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0151497833
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0094097200792
+            },
+            {
+              "Name": "Skin",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0107729681
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0113959291
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0102007599
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            }
+          ]
+        },
+        {
+          "Name": "ATP1A2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0062154033171
+            },
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0508741242
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.3179118843
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0158938619
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0272345453
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.7034193524
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0073903254795
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0389467988
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.0103243118
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0309435884
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0786998764
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.47661714,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Clarithromycin",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.3,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.299
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 12.17,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 2.4
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.23E-06,
+              "Unit": "dm/min"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 8.99,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "fit",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 48.7,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 76.5,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "fitted",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Body weight",
+              "Value": 71.5,
+              "Unit": "kg",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Blood flow rate (kidney)",
+              "Value": 1.31,
+              "Unit": "l/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.4
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 1.75,
+              "Unit": "ml/min/kg"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Eberl (2007)",
+          "Molecule": "ABCB1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 4.1,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "fitted",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 0.04,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 6.04,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Vermeer 2016",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 5.3,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Vermeer 2016",
+          "Molecule": "OATP1B3",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 14.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 747.9534,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Midazolam",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "fitted",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.13,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 1.6,
+              "Unit": "%"
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 49.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2E-05,
+              "Unit": "cm/min"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.15,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Patki et al.",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 2.73,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 13.0,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "F",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 325.77,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Solution",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "Tablet Clarithromycin",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 5.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 2.9
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 0.0
+        }
+      ]
+    },
+    {
+      "Name": "Tablet Midazolam (Roche)",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 26.95593161,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.697109383
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 500.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 14.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 500.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 7.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 250.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 10.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - DDI Midazolam iv, Gorski 1998, 0.05 mg/kg, day 7",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Intravenous",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.05,
+                  "Unit": "mg/kg"
+                },
+                {
+                  "Name": "Infusion time",
+                  "Value": 30.0,
+                  "Unit": "min"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 146.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - DDI Midazolam po, Gorski 1998, 4 mg, day 7",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 4.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 146.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - DDI Midazolam po, Markert 2013, 3 mg, day 3",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 3.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 72.25,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - DDI Midazolam po, Yeates 1997, 15 mg, day 5",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 15.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 96.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - control Midazolam iv, Gorski 1998, 0.05 mg/kg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Intravenous",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.05,
+                  "Unit": "mg/kg"
+                },
+                {
+                  "Name": "Infusion time",
+                  "Value": 30.0,
+                  "Unit": "min"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - control Midazolam po, Gorski 1998, 4 mg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 4.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - control Midazolam po, Markert 2013, 3 mg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 3.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "DDI with Clarithromycin - control Midazolam po, Yeates 1997, 15 mg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 15.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Gorski 1998, Midazolam 0.05 mg/kg iv",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Gorski 1998, Midazolam, 0.05 mgkg iv"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 20.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - control Midazolam iv, Gorski 1998, 0.05 mg/kg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Patki et al.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - control Midazolam iv, Gorski 1998, 0.05 mg/kg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0972290039,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Gorski 1998, Midazolam 0.05 mg/kg iv-Midazolam-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "Gorski 1998, Midazolam 0.05 mg/kg iv|Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Gorski 1998, Midazolam, 0.05 mgkg iv-Midazolam-Peripheral Venous Blood-Plasma-Conc  ",
+              "X": "Gorski 1998, Midazolam, 0.05 mgkg iv|Time  ",
+              "Y": "Gorski 1998, Midazolam, 0.05 mgkg iv|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc  ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Midazolam-DDI\nGorski 1998, Midazolam 0.05 mg/kg iv\n2019-11-18 11:09"
+        }
+      ]
+    },
+    {
+      "Name": "Gorski 1998, Midazolam 4 mg po",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Gorski 1998, Midazolam, 4 mg po"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 20.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - control Midazolam po, Gorski 1998, 4 mg|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Patki et al.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - control Midazolam po, Gorski 1998, 4 mg",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 10.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Gorski 1998, Midazolam, 4 mg po-Midazolam-Peripheral Venous Blood-Plasma-Conc  ",
+              "X": "Gorski 1998, Midazolam, 4 mg po|Time  ",
+              "Y": "Gorski 1998, Midazolam, 4 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc  ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Gorski 1998, Midazolam 4 mg po-Midazolam-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "Gorski 1998, Midazolam 4 mg po|Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Midazolam-DDI\nGorski 1998, Midazolam 4 mg po, day 7\n2019-11-18 11:10"
+        }
+      ]
+    },
+    {
+      "Name": "Markert 2013, Midazolam 3 mg po",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Markert 2013, Midazolam, 3 mg po"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 20.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - control Midazolam po, Markert 2013, 3 mg|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Patki et al.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - control Midazolam po, Markert 2013, 3 mg",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Markert 2013, Midazolam 3 mg po-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Markert 2013, Midazolam 3 mg po|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Markert 2013, Midazolam, 3 mg po-Midazolam-Peripheral Venous Blood-Plasma-Conc    ",
+              "X": "Markert 2013, Midazolam, 3 mg po|Time    ",
+              "Y": "Markert 2013, Midazolam, 3 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc    ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Midazolam-DDI\nMarkert 2013, Midazolam 3 mg po, day 3\n2019-11-18 11:11"
+        }
+      ]
+    },
+    {
+      "Name": "Yeates 1997, Midazolam 15 mg po",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Yeates 1997, Midazolam, 15 mg po"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - control Midazolam po, Yeates 1997, 15 mg|Tablet Midazolam (Roche)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Patki et al.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - control Midazolam po, Yeates 1997, 15 mg",
+            "Formulations": [
+              {
+                "Name": "Tablet Midazolam (Roche)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 26.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Yeates 1997, Midazolam 15 mg po-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yeates 1997, Midazolam 15 mg po|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Yeates 1997, Midazolam, 15 mg po-Midazolam-Peripheral Venous Blood-Plasma-Conc  ",
+              "X": "Yeates 1997, Midazolam, 15 mg po|Time  ",
+              "Y": "Yeates 1997, Midazolam, 15 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc  ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Midazolam-DDI\nYeates 1997, Midazolam 15 mg po, day 5\n2019-11-18 11:12"
+        }
+      ]
+    },
+    {
+      "Name": "Gorski 1998, Midazolam 0.05 mg/kg iv, Clari 500 mg BID po, day 7",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Gorski 1998, Midazolam, 0.05 mgkg iv + Clarithromycin"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 160.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - DDI Midazolam iv, Gorski 1998, 0.05 mg/kg, day 7|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d",
+            "Formulations": [
+              {
+                "Name": "Tablet Clarithromycin",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Patki et al.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - DDI Midazolam iv, Gorski 1998, 0.05 mg/kg, day 7"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Gorski 1998, Midazolam, 0.05 mgkg iv + Clarithromycin-Midazolam-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Gorski 1998, Midazolam, 0.05 mgkg iv + Clarithromycin|Time ",
+              "Y": "Gorski 1998, Midazolam, 0.05 mgkg iv + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc ",
+              "CurveOptions": {
+                "Color": "#9BBB59",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Gorski 1998, Midazolam 0.05 mg/kg iv, Clari 500 mg BID po, day 7-Midazolam-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "Gorski 1998, Midazolam 0.05 mg/kg iv, Clari 500 mg BID po, day 7|Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#9BBB59",
+                "LegendIndex": 4
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Midazolam-DDI\nGorski 1998, Midazolam 0.05 mg/kg iv, Clari 500 mg BID po, day 7\n2019-11-14 11:22"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    },
+    {
+      "Name": "Gorski 1998, Midazolam 4 mg po, Clari 500 mg BID po, day 7",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Gorski 1998, Midazolam, 4 mg po + Clarithromycin"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 160.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d|Tablet Clarithromycin|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - DDI Midazolam po, Gorski 1998, 4 mg, day 7|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Clarithromycin po, Gorski 1998, 500 mg BID, 7 d",
+            "Formulations": [
+              {
+                "Name": "Tablet Clarithromycin",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Patki et al.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - DDI Midazolam po, Gorski 1998, 4 mg, day 7",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 145.0,
+              "Max": 160.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Gorski 1998, Midazolam 4 mg po, Clari 500 mg BID po, day 7-Midazolam-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "Gorski 1998, Midazolam 4 mg po, Clari 500 mg BID po, day 7|Organism|PeripheralVenousBlood|Midazolam|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#9BBB59",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "Gorski 1998, Midazolam, 4 mg po + Clarithromycin-Midazolam-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Gorski 1998, Midazolam, 4 mg po + Clarithromycin|Time ",
+              "Y": "Gorski 1998, Midazolam, 4 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc ",
+              "CurveOptions": {
+                "Color": "#9BBB59",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Midazolam-DDI\nGorski 1998, Midazolam 4 mg po, Clari 500 mg BID po, day 7\n2019-11-14 11:23"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    },
+    {
+      "Name": "Markert 2013, Midazolam 3 mg po, Clari 500 mg BID po day 3",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Markert 2013, Midazolam, 3 mg po + Clarithromycin"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 84.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - DDI Midazolam po, Markert 2013, 3 mg, day 3|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Clarithromycin po, Markert 2013, 500 mg BID, 3 d",
+            "Formulations": [
+              {
+                "Name": "Tablet Clarithromycin",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Patki et al.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - DDI Midazolam po, Markert 2013, 3 mg, day 3",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 73.0,
+              "Max": 84.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Markert 2013, Midazolam, 3 mg po + Clarithromycin-Midazolam-Peripheral Venous Blood-Plasma-Conc  ",
+              "X": "Markert 2013, Midazolam, 3 mg po + Clarithromycin|Time  ",
+              "Y": "Markert 2013, Midazolam, 3 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc  ",
+              "CurveOptions": {
+                "Color": "#9BBB59",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Markert 2013, Midazolam 3 mg po, Clari 500 mg BID po day 3-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Markert 2013, Midazolam 3 mg po, Clari 500 mg BID po day 3|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#9BBB59",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Midazolam-DDI\nMarkert 2013, Midazolam 3 mg po, Clari 500 mg BID po day 3\n2019-11-14 11:05"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    },
+    {
+      "Name": "Yeates 1997, Midazolam 15 mg po, Clari 250 mg BID po day 5",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Yeates 1997, Midazolam, 15 mg po + Clarithromycin"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 122.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d|Tablet Clarithromycin|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|DDI with Clarithromycin - DDI Midazolam po, Yeates 1997, 15 mg, day 5|Tablet Midazolam (Roche)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - Clarithromycin po, Yeates 1997, 250 mg BID, 5 d",
+            "Formulations": [
+              {
+                "Name": "Tablet Clarithromycin",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Patki et al.",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "DDI with Clarithromycin - DDI Midazolam po, Yeates 1997, 15 mg, day 5",
+            "Formulations": [
+              {
+                "Name": "Tablet Midazolam (Roche)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 95.0,
+              "Max": 122.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Yeates 1997, Midazolam, 15 mg po + Clarithromycin-Midazolam-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Yeates 1997, Midazolam, 15 mg po + Clarithromycin|Time ",
+              "Y": "Yeates 1997, Midazolam, 15 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc ",
+              "CurveOptions": {
+                "Color": "#9BBB59",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Yeates 1997, Midazolam 15 mg po, Clari 250 mg BID po day 5-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yeates 1997, Midazolam 15 mg po, Clari 250 mg BID po day 5|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#9BBB59",
+                "LegendIndex": 2
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Midazolam-DDI\nYeates 1997, Midazolam 15 mg po, Clari 250 mg BID po day 5\n2019-11-14 11:07"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Gorski 1998, Midazolam, 0.05 mgkg iv + Clarithromycin",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\clarithromycin\\DDI Paper Nina\\Clari + Mida\\Gorski 1998, Midazolam+Clarithromycin, 0.05mgkg iv.xlsx.Gorski 1998, 0.05mgkg iv"
+        },
+        {
+          "Name": "File",
+          "Value": "Gorski 1998, Midazolam+Clarithromycin, 0.05mgkg iv"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gorski 1998, 0.05mgkg iv"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolamljnölk"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Whole Blood"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Gorski 1998, Midazolam, 0.05 mgkg iv + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2016-11-10T15:26:01.7728265+01:00",
+                "Source": "Gorski 1998, Midazolam+Clarithromycin, 0.05mgkg iv.Gorski 1998, 0.05mgkg iv.SD [ng/ml]",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                11.5089,
+                17.4156,
+                22.4551,
+                10.279,
+                7.55809975,
+                7.9254,
+                6.677,
+                6.4767,
+                5.07109976,
+                3.1801,
+                4.5142,
+                3.5074,
+                3.1309998,
+                4.87318
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Gorski 1998, Midazolam, 0.05 mgkg iv + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-11-10T15:26:01.7728265+01:00",
+            "Source": "Gorski 1998, Midazolam+Clarithromycin, 0.05mgkg iv.Gorski 1998, 0.05mgkg iv.Conc [ng/mL]",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            17.5322,
+            37.8514,
+            63.4950027,
+            40.3162,
+            33.7884,
+            27.6119,
+            24.6479988,
+            22.5644,
+            19.8898,
+            16.4603,
+            14.88,
+            11.5615005,
+            10.3203993,
+            9.09712
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Gorski 1998, Midazolam, 0.05 mgkg iv + Clarithromycin|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-11-10T15:26:01.7728265+01:00",
+          "Source": "Gorski 1998, Midazolam+Clarithromycin, 0.05mgkg iv.Gorski 1998, 0.05mgkg iv.Time [h]"
+        },
+        "Values": [
+          146.074783,
+          146.248215,
+          146.489273,
+          146.735,
+          146.979385,
+          147.489578,
+          147.999344,
+          148.509,
+          149.018829,
+          149.993912,
+          152.0313,
+          154.025131,
+          156.0183,
+          158.0115
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Gorski 1998, Midazolam, 4 mg po + Clarithromycin",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\clarithromycin\\DDI Paper Nina\\Clari + Mida\\Gorski 1998, Midazolam+Clarithromycin, 4mg po.xlsx.Gorski 1998, 4 mg po inhib"
+        },
+        {
+          "Name": "File",
+          "Value": "Gorski 1998, Midazolam+Clarithromycin, 4mg po"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gorski 1998, 4 mg po inhib"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolamljnölk"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Whole Blood"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Gorski 1998, Midazolam, 4 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2016-11-10T16:13:36.0629065+01:00",
+                "Source": "Gorski 1998, Midazolam+Clarithromycin, 4mg po.Gorski 1998, 4 mg po inhib.SD [ng/ml]",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                21.0495987,
+                24.3368,
+                20.2074,
+                17.0212,
+                14.4435,
+                12.5887,
+                9.5463,
+                8.6050005,
+                6.70929956,
+                8.9874,
+                6.2427,
+                5.1071,
+                5.10072
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Gorski 1998, Midazolam, 4 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-11-10T16:13:36.0629065+01:00",
+            "Source": "Gorski 1998, Midazolam+Clarithromycin, 4mg po.Gorski 1998, 4 mg po inhib.Conc [ng/mL]",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            25.1991,
+            40.7649,
+            35.0328026,
+            31.6678982,
+            31.2866,
+            30.9091,
+            26.9079,
+            23.1302,
+            18.9112988,
+            17.3449,
+            12.5093994,
+            10.6348,
+            9.15578
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Gorski 1998, Midazolam, 4 mg po + Clarithromycin|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-11-10T16:13:36.0629065+01:00",
+          "Source": "Gorski 1998, Midazolam+Clarithromycin, 4mg po.Gorski 1998, 4 mg po inhib.Time [h]"
+        },
+        "Values": [
+          146.249649,
+          146.490433,
+          146.756363,
+          146.977829,
+          147.486176,
+          147.972427,
+          148.481384,
+          148.9904,
+          149.985825,
+          151.975189,
+          153.987823,
+          155.999649,
+          157.967209
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Markert 2013, Midazolam, 3 mg po + Clarithromycin",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BTS\\MATLAB Skripte\\Skripte Nina\\Rifampicin Paper\\Clarithromycin + Midazolam\\Markert 2013, Midazolam+Clarithromycin, 3mg po_neu.xls.Markert 2013, Midazolam+Clari"
+        },
+        {
+          "Name": "File",
+          "Value": "Markert 2013, Midazolam+Clarithromycin, 3mg po_neu"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Markert 2013, Midazolam+Clari"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolamljnölk"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc  ",
+          "RelatedColumns": [
+            {
+              "Name": "SD  ",
+              "QuantityInfo": {
+                "Name": "SD  ",
+                "Path": "Markert 2013, Midazolam, 3 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|SD  "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2018-05-07T08:16:05.1371269+02:00",
+                "Source": "Markert 2013, Midazolam+Clarithromycin, 3mg po_neu.Markert 2013, Midazolam+Clari.SD  [µg/l]",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                4.2102437,
+                4.47765827,
+                4.070567,
+                3.593429
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc  ",
+            "Path": "Markert 2013, Midazolam, 3 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2018-05-07T08:16:05.1371269+02:00",
+            "Source": "Markert 2013, Midazolam+Clarithromycin, 3mg po_neu.Markert 2013, Midazolam+Clari.Conc  [µg/l]",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            22.9060612,
+            19.8057251,
+            17.7447243,
+            14.6998062
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time  ",
+        "QuantityInfo": {
+          "Name": "Time  ",
+          "Path": "Markert 2013, Midazolam, 3 mg po + Clarithromycin|Time  ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2018-05-07T08:16:05.1371269+02:00",
+          "Source": "Markert 2013, Midazolam+Clarithromycin, 3mg po_neu.Markert 2013, Midazolam+Clari.Time  [h]"
+        },
+        "Values": [
+          74.25,
+          74.75,
+          75.25,
+          76.25
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Yeates 1997, Midazolam, 15 mg po + Clarithromycin",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\clarithromycin\\DDI Paper Nina\\Clari + Mida\\Yeates 1997, Midazolam+Clarithromycin, 15mg po.xlsx.Yeates 1997, 15 mg po inhib"
+        },
+        {
+          "Name": "File",
+          "Value": "Yeates 1997, Midazolam+Clarithromycin, 15mg po"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Yeates 1997, 15 mg po inhib"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolamljnölk"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Yeates 1997, Midazolam, 15 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2016-11-10T16:10:13.3706564+01:00",
+                "Source": "Yeates 1997, Midazolam+Clarithromycin, 15mg po.Yeates 1997, 15 mg po inhib.SD [ng/ml]",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                114.838432,
+                66.4865,
+                31.2219486,
+                34.25373,
+                20.1402874,
+                20.1402874,
+                7.0518713,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc ",
+            "Path": "Yeates 1997, Midazolam, 15 mg po + Clarithromycin|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2016-11-10T16:10:13.3706564+01:00",
+            "Source": "Yeates 1997, Midazolam+Clarithromycin, 15mg po.Yeates 1997, 15 mg po inhib.Conc [ng/mL]",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            172.187988,
+            127.141006,
+            109.741005,
+            88.5612,
+            63.0226,
+            47.659,
+            40.1439972,
+            27.4485,
+            17.7538,
+            6.70239973
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Name": "Time ",
+          "Path": "Yeates 1997, Midazolam, 15 mg po + Clarithromycin|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2016-11-10T16:10:13.3706564+01:00",
+          "Source": "Yeates 1997, Midazolam+Clarithromycin, 15mg po.Yeates 1997, 15 mg po inhib.Time [h]"
+        },
+        "Values": [
+          96.52979,
+          97.0546341,
+          98.0306854,
+          99.0247345,
+          100.077538,
+          101.075569,
+          102.017235,
+          104.066856,
+          108.0328,
+          120.0046
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Yeates 1997, Midazolam, 15 mg po",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Yeates 1997, Midazolam, 15 mg po.xlsx.Yeates 1997, Midazolam, 15 mg"
+        },
+        {
+          "Name": "File",
+          "Value": "Yeates 1997, Midazolam, 15 mg po"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Yeates 1997, Midazolam, 15 mg"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc  ",
+          "RelatedColumns": [
+            {
+              "Name": "SD  ",
+              "QuantityInfo": {
+                "Name": "SD  ",
+                "Path": "Yeates 1997, Midazolam, 15 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|SD  "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-18T11:08:59.3479232+01:00",
+                "Source": "Yeates 1997, Midazolam, 15 mg po.Yeates 1997, Midazolam, 15 mg.SD  [ng/ml]",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                37.2827377,
+                27.1987419,
+                16.1247,
+                19.1332722,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc  ",
+            "Path": "Yeates 1997, Midazolam, 15 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:08:59.3479232+01:00",
+            "Source": "Yeates 1997, Midazolam, 15 mg po.Yeates 1997, Midazolam, 15 mg.Conc  [mg/l]",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            68.9598,
+            57.9323,
+            37.6251,
+            26.0418987,
+            16.2026,
+            11.5996008,
+            9.031301,
+            5.05984,
+            2.63218,
+            0.304768
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time  ",
+        "QuantityInfo": {
+          "Name": "Time  ",
+          "Path": "Yeates 1997, Midazolam, 15 mg po|Time  ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:08:59.3479232+01:00",
+          "Source": "Yeates 1997, Midazolam, 15 mg po.Yeates 1997, Midazolam, 15 mg.Time  [h]"
+        },
+        "Values": [
+          0.582473755,
+          1.04830933,
+          2.04296112,
+          3.04358673,
+          4.024826,
+          5.050827,
+          6.05764,
+          8.113243,
+          12.0224085,
+          24.000206
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Markert 2013, Midazolam, 3 mg po",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Markert 2013, Midazolam, 3 mg po.xlsx.Markert 2013, Midazolam, 3 mg"
+        },
+        {
+          "Name": "File",
+          "Value": "Markert 2013, Midazolam, 3 mg po"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Markert 2013, Midazolam, 3 mg"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc    ",
+          "RelatedColumns": [
+            {
+              "Name": "SD  ",
+              "QuantityInfo": {
+                "Name": "SD  ",
+                "Path": "Markert 2013, Midazolam, 3 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|SD  "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-18T11:08:47.8435968+01:00",
+                "Source": "Markert 2013, Midazolam, 3 mg po.Markert 2013, Midazolam, 3 mg.SD  [µg/l]",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                1.70265162,
+                1.41185546,
+                1.17907751,
+                0.9026385
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc    ",
+            "Path": "Markert 2013, Midazolam, 3 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc    "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:08:47.8435968+01:00",
+            "Source": "Markert 2013, Midazolam, 3 mg po.Markert 2013, Midazolam, 3 mg.Conc    [ng/ml]",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            5.072702,
+            4.07387352,
+            3.368173,
+            2.39226675
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time    ",
+        "QuantityInfo": {
+          "Name": "Time    ",
+          "Path": "Markert 2013, Midazolam, 3 mg po|Time    ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:08:47.8435968+01:00",
+          "Source": "Markert 2013, Midazolam, 3 mg po.Markert 2013, Midazolam, 3 mg.Time    [h]"
+        },
+        "Values": [
+          2.0,
+          2.5,
+          3.0,
+          4.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Gorski 1998, Midazolam, 4 mg po",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Gorski 1998, Midazolam, 4 mg po.xlsx.Gorski 1998, Midazolam, 4 mg "
+        },
+        {
+          "Name": "File",
+          "Value": "Gorski 1998, Midazolam, 4 mg po"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gorski 1998, Midazolam, 4 mg "
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc  ",
+          "RelatedColumns": [
+            {
+              "Name": "SD  ",
+              "QuantityInfo": {
+                "Name": "SD  ",
+                "Path": "Gorski 1998, Midazolam, 4 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|SD  "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-18T11:08:35.9495423+01:00",
+                "Source": "Gorski 1998, Midazolam, 4 mg po.Gorski 1998, Midazolam, 4 mg .SD  [ng/ml]",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                10.5772,
+                6.513,
+                7.0667,
+                5.22082043,
+                4.96592,
+                3.7327702,
+                2.40068,
+                1.80682,
+                1.03804994,
+                1.21696,
+                1.17240989
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc  ",
+            "Path": "Gorski 1998, Midazolam, 4 mg po|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:08:35.9495423+01:00",
+            "Source": "Gorski 1998, Midazolam, 4 mg po.Gorski 1998, Midazolam, 4 mg .Conc  [ng/ml]",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            11.0725,
+            12.5687,
+            11.0781,
+            9.05058,
+            8.60858,
+            8.085031,
+            5.89579,
+            4.63853,
+            3.60534,
+            2.98846984,
+            1.89914989
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time  ",
+        "QuantityInfo": {
+          "Name": "Time  ",
+          "Path": "Gorski 1998, Midazolam, 4 mg po|Time  ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:08:35.9495423+01:00",
+          "Source": "Gorski 1998, Midazolam, 4 mg po.Gorski 1998, Midazolam, 4 mg .Time  [h]"
+        },
+        "Values": [
+          0.253601074,
+          0.4739685,
+          0.7397766,
+          1.00593567,
+          1.51446533,
+          2.0009613,
+          2.48866272,
+          2.99809265,
+          3.99378967,
+          6.00575256,
+          7.99685669
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Gorski 1998, Midazolam, 0.05 mgkg iv",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Gorski 1998, Midazolam, 0.05 mgkg iv.xlsx.Gorski 1998, Midazolam, 0.05 "
+        },
+        {
+          "Name": "File",
+          "Value": "Gorski 1998, Midazolam, 0.05 mgkg iv"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gorski 1998, Midazolam, 0.05 "
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Conc  ",
+          "RelatedColumns": [
+            {
+              "Name": "SD  ",
+              "QuantityInfo": {
+                "Name": "SD  ",
+                "Path": "Gorski 1998, Midazolam, 0.05 mgkg iv|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|SD  "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-18T11:08:25.0896508+01:00",
+                "Source": "Gorski 1998, Midazolam, 0.05 mgkg iv.Gorski 1998, Midazolam, 0.05 .SD  [ng/ml]",
+                "MolWeight": 325.77
+              },
+              "Values": [
+                10.38509,
+                15.9408007,
+                16.8067989,
+                19.3242,
+                9.039,
+                7.3867,
+                8.62974,
+                8.12074,
+                7.79486942,
+                5.27247,
+                2.77818,
+                2.48043013,
+                1.63546
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Conc  ",
+            "Path": "Gorski 1998, Midazolam, 0.05 mgkg iv|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Conc  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:08:25.0896508+01:00",
+            "Source": "Gorski 1998, Midazolam, 0.05 mgkg iv.Gorski 1998, Midazolam, 0.05 .Conc  [ng/ml]",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            16.4603,
+            35.0918,
+            50.5952,
+            32.9464,
+            23.732399,
+            19.3942,
+            16.2538986,
+            13.9703,
+            11.4165,
+            9.3296,
+            6.30957031,
+            4.26714,
+            2.92249012
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time  ",
+        "QuantityInfo": {
+          "Name": "Time  ",
+          "Path": "Gorski 1998, Midazolam, 0.05 mgkg iv|Time  ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:08:25.0896508+01:00",
+          "Source": "Gorski 1998, Midazolam, 0.05 mgkg iv.Gorski 1998, Midazolam, 0.05 .Time  [h]"
+        },
+        "Values": [
+          0.0972290039,
+          0.248580933,
+          0.512496948,
+          0.7581024,
+          1.0032196,
+          1.51342773,
+          2.001358,
+          2.51130676,
+          2.99935913,
+          3.996643,
+          6.013275,
+          8.02992249,
+          10.0243988
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Controls Midazolam",
+      "Classifiables": [
+        "Gorski 1998, Midazolam 0.05 mg/kg iv",
+        "Gorski 1998, Midazolam 4 mg po",
+        "Markert 2013, Midazolam 3 mg po",
+        "Yeates 1997, Midazolam 15 mg po"
+      ]
+    },
+    {
+      "Name": "DDI Clarithromycin + Midazolam",
+      "Classifiables": [
+        "Gorski 1998, Midazolam 0.05 mg/kg iv, Clari 500 mg BID po, day 7",
+        "Gorski 1998, Midazolam 4 mg po, Clari 500 mg BID po, day 7",
+        "Markert 2013, Midazolam 3 mg po, Clari 500 mg BID po day 3",
+        "Yeates 1997, Midazolam 15 mg po, Clari 250 mg BID po day 5"
+      ]
+    }
+  ]
+}
